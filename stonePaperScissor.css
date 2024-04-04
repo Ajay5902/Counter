@@ -1,0 +1,81 @@
+* {
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+h1{
+    background-color: cadetblue;
+    color: rgb(255, 255, 255);
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    margin-top: 30px;
+
+}
+
+.choice:hover {
+    /* To blurr the image when we put cursor on it */
+    opacity: 0.5;
+    /* to change look of cursor  */
+    cursor: pointer;
+}
+img {
+    height: 150px;
+    width: 150px;
+    /* To protect from shrink */
+    object-fit: cover; 
+/* To make circular image */
+border-radius: 5rem;
+}
+
+.choices {
+    /* To align horizontally */
+    display: flex;
+    /* keep content in center */
+    justify-content: center;
+    align-items: center;
+
+}
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+
+}
+
+
+#user-score,#comp-score{
+    font-size: 4rem;
+
+}
+.msg-container{
+    margin-top: 5rem;
+
+}
+
+#msg {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 2rem;
+    /* To limit the backgrount strip */
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.greenText{
+    color: greenyellow;
+}
+
+
+.redText{
+    color: rgb(238, 79, 79);
+}
